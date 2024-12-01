@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    
+    		<Spinner android:id="@+id/status_spinner"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:textSize="22sp"/>
+       
+            <EditText
+                android:id="@+id/date_status"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_horizontal"
+                android:hint="PLANNING DATE "
+                android:inputType="date"
+                android:maxLength="15" />
+        
+            <EditText
+                android:id="@+id/start_time_status"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_horizontal"
+                android:hint="START TIME "
+                android:inputType="date"
+                android:maxLength="15" />
+       
+            <EditText
+                android:id="@+id/end_time_status"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="center_horizontal"
+                android:hint="END TIME "
+                android:inputType="date"
+                android:maxLength="15" />
+	    <TextView android:layout_width="fill_parent"
+	        android:layout_height="40dip"
+	        android:layout_gravity="center"
+	        android:layout_marginBottom="5dip"
+	        android:textSize="22sp"
+	        android:text="PLANNING DESCRIPTION"/>
+	    <EditText android:id="@+id/status_text_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="80dip"
+	        android:layout_gravity="center"
+	        android:layout_marginBottom="5dip"
+	        android:textSize="22sp"
+	        android:maxLines="2"
+	        android:inputType="textMultiLine"/>
+	
+	    <Button
+	        android:id="@+id/save_meeting_settings"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dip"
+	        android:layout_margin="5dip"
+	        android:text="ADD PLANNING"
+	        android:textSize="22sp" />
+	    <LinearLayout android:layout_width="match_parent"
+	         android:layout_height="310dip"
+	         android:layout_weight="30"
+	         android:layout_marginTop="5dip"
+	         android:layout_marginBottom="5dip"
+	         android:clickable="false"
+	         android:orientation="vertical">
+		            <ListView android:id="@+id/planned_meetings"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:scrollbars="vertical"
+		                />
+	    </LinearLayout>
+	    <Button android:id="@+id/drop_meeting"
+				        android:layout_width="fill_parent"
+				        android:layout_height="40dip"
+				        android:layout_gravity="center"
+				        android:text="DELETE PLANNING"/>
+</LinearLayout>

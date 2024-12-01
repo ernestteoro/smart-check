@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="10dip">
+    <TextView android:id="@+id/num_text"
+        	android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+        	android:textSize="16sp" 
+        	android:layout_gravity="center"
+        	android:text="Enter your Contact"
+        />
+    <EditText android:id="@+id/your_contact"
+        	android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+        	android:layout_gravity="center"
+        	android:inputType="phone"/>
+    <Button android:id="@+id/save_contact"
+        	android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+        	android:text="OK"/>
+    
+
+</LinearLayout>

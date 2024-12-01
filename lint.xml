@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId" severity="ignore" />
+    <issue id="InflateParams">
+        <ignore path="src/com/example/smartcheck/HomeDashBoardActivity.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/com/example/smartcheck/mapActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/example/smartcheck/JobAlarmReceiver.java" />
+    </issue>
+</lint>

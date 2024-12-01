@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="@drawable/background_app" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/smart_app_bg"
+    >
+    <GridView
+         android:id="@+id/homedash_board"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:listSelector="@android:color/background_light"
+         android:stretchMode="columnWidth"
+         android:verticalSpacing="20.0dip"
+         android:horizontalSpacing="20.0dip"
+         android:layout_marginLeft="10.0dip"
+         android:layout_marginRight="10.0dip"
+         android:layout_centerInParent="true"
+         style="@style/homedashboard"
+        />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartCheck</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="feed_back_menu_title">FEEDBACK</string>
+    <string name="about_menu_title">ABOUT</string>
+    <string name="sugestion_menu_title">SUGESTION</string>
+</resources>

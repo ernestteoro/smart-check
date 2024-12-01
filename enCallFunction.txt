@@ -1,0 +1,13 @@
+public void endCallReceiver{
+
+	public void endCall(Context context){
+		TelephonyManager tm=new (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+		try{
+		
+		}catch(Expection ex){
+		}
+	}
+(int milliseconds, String phoneNum){
+}
+	
+}

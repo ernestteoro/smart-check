@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dip"
+    android:layout_margin="5dip"
+	android:paddingLeft="15dip"
+	android:paddingRight="15dip"
+    android:layout_weight="100">
+	
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="51dip"
+         android:layout_weight="30"
+         android:layout_marginTop="20dip"
+         android:orientation="vertical">
+        <!-- Table layout for displaying components -->
+	        <TableLayout android:id="@+id/change_mode_num_tbl"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:showDividers="middle"
+		        android:scrollbarStyle="outsideOverlay"
+		        android:scrollbars="vertical">
+	            <TableRow >
+	                <EditText android:id="@+id/mode_change_num_txt"
+	                    android:layout_width="200dip"
+	                    android:layout_height="40dip"
+	                    android:inputType="numberSigned"
+	                    android:maxLength="15"
+	                    android:hint="PHONE NUMBER"/>
+	                <ImageButton android:id="@+id/add_from_contact"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="40dip"
+	                    android:background="@drawable/contact_search"
+	                    android:layout_marginLeft="5dip"
+	                    />
+	                <Spinner android:id="@+id/mode_spinner"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="45dip"
+	                    android:layout_marginLeft="3dip"
+	                    android:textSize="12sp"/>
+	            </TableRow> 
+	        </TableLayout>
+    </LinearLayout>
+    <!--   -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="45dip"
+      	android:layout_weight="20"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip">
+	        <Button android:id="@+id/apply_to"
+			        android:layout_width="fill_parent"
+			        android:layout_height="40dip"
+			        android:layout_gravity="center"
+			        android:text="APPLY"/>
+    </LinearLayout>
+    <!--  -->
+    <LinearLayout android:layout_width="match_parent"
+         android:layout_height="310dip"
+         android:layout_weight="30"
+         android:layout_marginTop="5dip"
+         android:layout_marginBottom="5dip"
+         android:clickable="false"
+         android:orientation="vertical">
+	            <ListView android:id="@+id/contactList"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:scrollbars="vertical"
+	                />
+    </LinearLayout>
+    <!--   -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="45dip"
+      	android:layout_weight="20"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip">
+	        <Button android:id="@+id/deleteContacts"
+			        android:layout_width="fill_parent"
+			        android:layout_height="40dip"
+			        android:layout_gravity="center"
+			        android:text="DELETE"/>
+    </LinearLayout>
+</LinearLayout>

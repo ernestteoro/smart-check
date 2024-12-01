@@ -1,0 +1,167 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/aidl/
+* app/src/main/aidl/com/
+* app/src/main/aidl/com/android/
+* app/src/main/aidl/com/android/internal/
+* app/src/main/aidl/com/android/internal/telephony/
+* app/src/main/aidl/com/android/internal/telephony/ITelephony.aidl
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/example/
+* app/src/main/java/com/example/smartcheck/
+* app/src/main/java/com/example/smartcheck/DatePickerClass.java
+* app/src/main/java/com/example/smartcheck/DialogBox.java
+* app/src/main/java/com/example/smartcheck/HomeDashBoardActivity.java
+* app/src/main/java/com/example/smartcheck/JobAlarmReceiver.java
+* app/src/main/java/com/example/smartcheck/JobTimerSchedule.java
+* app/src/main/java/com/example/smartcheck/MainActivity.java
+* app/src/main/java/com/example/smartcheck/MeetingStatus.java
+* app/src/main/java/com/example/smartcheck/ModeOnSmsReceived.java
+* app/src/main/java/com/example/smartcheck/OnCallActivity.java
+* app/src/main/java/com/example/smartcheck/ScheduleMeetings.java
+* app/src/main/java/com/example/smartcheck/ServiceJob.java
+* app/src/main/java/com/example/smartcheck/SmsMode.java
+* app/src/main/java/com/example/smartcheck/SmsReceiver.java
+* app/src/main/java/com/example/smartcheck/mapActivity.java
+* app/src/main/java/db_package/
+* app/src/main/java/db_package/AutoModeSettings.java
+* app/src/main/java/db_package/DB_Manager.java
+* app/src/main/java/db_package/PhoneList.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/about.jpg
+* app/src/main/res/drawable-hdpi/add1.jpg
+* app/src/main/res/drawable-hdpi/add_row1.jpg
+* app/src/main/res/drawable-hdpi/automode.png
+* app/src/main/res/drawable-hdpi/background.jpg
+* app/src/main/res/drawable-hdpi/background_app.jpg
+* app/src/main/res/drawable-hdpi/callicon.png
+* app/src/main/res/drawable-hdpi/callsetting.jpg
+* app/src/main/res/drawable-hdpi/calltune.png
+* app/src/main/res/drawable-hdpi/contact.jpg
+* app/src/main/res/drawable-hdpi/contact_search.png
+* app/src/main/res/drawable-hdpi/del.png
+* app/src/main/res/drawable-hdpi/dele.png
+* app/src/main/res/drawable-hdpi/delete.jpg
+* app/src/main/res/drawable-hdpi/delete1.png
+* app/src/main/res/drawable-hdpi/help.jpg
+* app/src/main/res/drawable-hdpi/help1.jpg
+* app/src/main/res/drawable-hdpi/ic_launcher.jpg
+* app/src/main/res/drawable-hdpi/layoutcorner.xml
+* app/src/main/res/drawable-hdpi/message.png
+* app/src/main/res/drawable-hdpi/messageicon.jpg
+* app/src/main/res/drawable-hdpi/search.jpg
+* app/src/main/res/drawable-hdpi/seperator.png
+* app/src/main/res/drawable-hdpi/smart_app_bg.jpg
+* app/src/main/res/drawable-hdpi/smart_app_bg1.jpg
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.jpg
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.jpg
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.jpg
+* app/src/main/res/layout-land/
+* app/src/main/res/layout-land/styledashboard.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/call_layout.xml
+* app/src/main/res/layout/home_layout.xml
+* app/src/main/res/layout/homedashboard_icon.xml
+* app/src/main/res/layout/map.xml
+* app/src/main/res/layout/meeting_status_layout.xml
+* app/src/main/res/layout/oncall_layout.xml
+* app/src/main/res/layout/sms_mode_layout.xml
+* app/src/main/res/layout/welcome_layout.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/main.xml
+* app/src/main/res/menu/menu_list.xml
+* app/src/main/res/values-land/
+* app/src/main/res/values-land/styledashboard.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values-w820dp/
+* app/src/main/res/values-w820dp/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styledashboard.xml
+* app/src/main/res/values/styles.xml
+* build.gradle
+* codes.txt
+* dailing codes.txt
+* dialing_eng.pdf
+* download.jpg
+* download.png
+* enCallFunction.java
+* enCallFunction.txt
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web_1.png
+* ic_launcher.jpg
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/android/internal/telephony/ITelephony.aidl => app/src/main/aidl/com/android/internal/telephony/ITelephony.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
